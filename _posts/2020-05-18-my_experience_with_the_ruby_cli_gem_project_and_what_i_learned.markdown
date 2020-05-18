@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Experience With The Ruby CLI Gem Project and What I Learned"
-date:       2020-05-18 04:31:07 +0000
+date:       2020-05-18 00:31:07 -0400
 permalink:  my_experience_with_the_ruby_cli_gem_project_and_what_i_learned
 ---
 
