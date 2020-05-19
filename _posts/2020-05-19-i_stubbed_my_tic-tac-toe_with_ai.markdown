@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "I Stubbed My Tic-Tac-Toe with AI"
-date:       2020-05-19 18:18:04 +0000
+date:       2020-05-19 14:18:04 -0400
 permalink:  i_stubbed_my_tic-tac-toe_with_ai
 ---
 
@@ -12,7 +12,7 @@ I know, the README said the following:
 > You can hardcode your logic, things like "On turn 1 always try to go in the middle if you can" and if not "try to go in a corner" or any logic tree you can think of - there is an algorithm called Min/Max, but it's going to be hard to implement given our current implementation of a Game, so we recommend building something that's a more colloquial or condition-based algorithm.
 > 
 
-I read that a few times and I took it as a challenge, I wanted to try something that wasn't hardcoded.  I researched the idea of a min/max algorithm, and even thought that it might work, but,  in the end, what the README says is true, in order for the min/max to work I, at least, need to implement a game object.  If I understand min/max correctly, as the algorithm performs it's magic it needs to create many instances of a game object in order to "foretell" what move will produce a win, block or fork.  I just didn't want to rework the whole thing so I decided to hardcode the first moves like this:
+I read that a few times and I took it as a challenge, I wanted to try something that wasn't hardcoded.  I researched the idea of a min/max algorithm, and even thought that it might work, but,  in the end, what the README says is true, in order for the min/max to work I, at least, would need to implement a game class.  If I understand min/max correctly, as the algorithm performs it's magic it needs to create many instances of a game object in order to "foretell" what move will produce a win, block or fork.  I just didn't want to rework the whole thing so I decided to hardcode the first moves like this:
 ```
 if @board.turn_count == 0
         int = [Board::CORNERS.sample, Board::CENTER].sample
